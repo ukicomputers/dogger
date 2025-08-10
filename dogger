@@ -1,0 +1,5 @@
+#!/sbin/openrc-run
+command="/usr/bin/python3 /root/main.py"
+command_background="yes"
+pidfile="/var/run/dogger.pid"
+name="dogger"
